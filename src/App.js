@@ -9,7 +9,7 @@ import Error from './pages/Error';
 import Navbar from './components/Navbar';
 function App() {
   return (
-    <Router>
+    <Router basename='/Cocktails-DB'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
